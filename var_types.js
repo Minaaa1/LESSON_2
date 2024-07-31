@@ -90,8 +90,8 @@ console.log(division);
 console.log(typeof str1);
 console.log(typeof y);
 console.log(typeof 'number'/898);
-console.log(typeof division); // ? почему выводит number в этом случае а не infinity ?
-//? а если написать сonsole.log(typeof 5/0) выходит Nan, почему ?
+console.log(typeof division); // ??? почему выводит number а не infinity в этом случае ???
+//??? а если написать сonsole.log(typeof 5/0) выходит NaN, почему ???
 console.log(typeof a);
 console.log(typeof t);
 console.log(typeof n); // вывод: object
