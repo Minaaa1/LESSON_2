@@ -100,86 +100,10 @@ console.log(typeof n); // вывод: object
 
 
 
-// --- < КОНСПЕКТ УРОКА 2 > ---
-
-//1 вариант 
-//
-// console.log(a); - мы можем вызвать раньше чем мы объявили
-// var a = 10 // устаревший вариант
-// a = 20
-
-// вариант 2 - современный вариант создания переменной
-// let timur = 293
-// console.log(timur);
-
-// 3 вариант
-// const c = 20
-// c = 30
-// console.log(c);
 
 
 
 
-// * ТИП ДАННЫХ number *
-
-// NaN - Not a Number - выходит когда у нас вычислительная ошибка
-// console.log(NaN **0); - исключение, в этом случае выйдет 1 ( нулевая степень любого числа равно 1)
 
 
-//* infinity * - выходит когда у нас indeterminacy 
-// example:
-// console.log(189 / 0);
-
-
-
-/* 
- ТИП ДАННЫХ bigint - когда нам нужно вывести оооочень большое значение 
- example: 
- console.log(660587056777585754767n)
-*/
-
-// * ТИП ДАННЫХ string * :
-// `` - косые ковычки имеют больше функционала
-// example:
-/*
-
-let str1 = 'money';
-let str2 = ` love ${str1}`;       // output в консоле: love money
-let str3 = `Anime ${2 + 2 * 100}` // output в консоле: Anime 202
-
-console.log(str1);
-console.log(str2);
-console.log(str3);'
-
-*/
-
-
-
-// * БУЛЕВОЙ ТИП ДАННЫХ *
-// true и false
-// console.log(20 < 202);
-
-
-
-// * ТИП null *
-// console.log(null);
-
-
-// * ТИП undefined * - значение не определено
-// let a;
-// console.log(a);
-
-
-
-// * ОПЕРАТОР typeof * - чтобы узнать тип переменной 
-
-// typeof x    <-   оба варианта 
-// typeof(x)   <-   допустимы 
-
-// console.log(typeof 10);
-// console.log(typeof 'cat');
-// console.log(typeof 10n);
-// console.log(typeof true);
-// console.log(typeof undefined);
-// console.log(typeof null);
 
